@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  height: 50px;
+  display: flex;
+  padding: 16px 20px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1) ;
+}
+
+.logo{
+  margin-left: 20px;
+}
+
+.photogrid{
+  padding: 20px;
+}
+
+.grid{
+  margin-left: 18rem;
+  width: 40rem;
+}
+
+.info{
+  text-align: center;
+  font-size: 25px;
+}
+
+.info >p{
+  font-size: 25px;
+}
+
+.card{
+  padding: 20px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.card-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.button{
+  height: 30px;
+  margin-left: 75px;
+  border-radius: 9px;
+  margin-top: 14px;
+  border-width: 0px;
+  background-color: rgb(172, 164, 164);
+  font-size: 15px;
+}
+
+.button:hover{
+  cursor: pointer;
+}
+.status{
+  width: 80px;
+  background-color: beige;
+  position:absolute;
+  margin-left: 85px;
+  margin-top: 48px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.card-img{
+  padding-top: 40px;
+  margin-left: 80px;
+  width: 250px;
+  height: 350px;
+}
+
+.star-img{
+  height: 15px;
+}
+
+.rating{
+  display: flex;
+}
+
+.card-info{
+  margin-left: 81px;
+  padding: 10px;
+  display: flex;
+  
+}
+
+.class--name{
+  margin-left: 81px;
+}
+
+.title{
+  padding: 5px;
+  overflow: hidden;
+}
+
+.second{
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.gray{
+  color: rgb(104, 102, 102);
+  padding-left: 10px;
+  gap: 10px;
+}
+
+.bold{
+  font-weight: bold;
+}
